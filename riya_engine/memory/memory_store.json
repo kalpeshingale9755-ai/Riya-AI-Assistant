@@ -1,0 +1,47 @@
+{
+    "facts": {
+        "user_name": "kalpesh"
+    },
+    "history": [
+        {
+            "user": "save session coding",
+            "riya": "Session coding saved."
+        },
+        {
+            "user": "close all\\",
+            "riya": "Done."
+        },
+        {
+            "user": "restore session coding",
+            "riya": "Restoring session coding."
+        },
+        {
+            "user": "restore session coding",
+            "riya": "Restoring session coding."
+        },
+        {
+            "user": "focus coding",
+            "riya": "Entering focus mode for coding."
+        },
+        {
+            "user": "open chrome",
+            "riya": "Opening chrome."
+        },
+        {
+            "user": "save session browsing",
+            "riya": "Session browsing saved."
+        },
+        {
+            "user": "close all",
+            "riya": "Done."
+        },
+        {
+            "user": "open notepad",
+            "riya": "Opening notepad."
+        },
+        {
+            "user": "restore session browsing",
+            "riya": "Restoring session browsing."
+        }
+    ]
+}
