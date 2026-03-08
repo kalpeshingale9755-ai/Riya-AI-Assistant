@@ -1,0 +1,22 @@
+{
+    "coding": {
+        "apps": [
+            "chrome",
+            "notepad"
+        ],
+        "hour": 14
+    },
+    "browsing": {
+        "apps": [
+            "chrome"
+        ],
+        "hour": 15
+    },
+    "web": {
+        "apps": [
+            "chrome",
+            "notepad"
+        ],
+        "hour": 14
+    }
+}
