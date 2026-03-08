@@ -89,9 +89,8 @@ OPEN_COMMANDS = {
     "paint": lambda: subprocess.Popen("mspaint", shell=True),
     "cmd": lambda: subprocess.Popen("cmd", shell=True),
     "powershell": lambda: subprocess.Popen("powershell", shell=True),
-    "whatsapp" : lambda: subprocess.Popen(
-    'explorer shell:AppsFolder\\5319275A.WhatsAppDesktop_cv1g1gvanyjgm!App',
-    shell=True),
+    "whatsapp": lambda: subprocess.Popen("start whatsapp:", shell=True),
+    "instagram": lambda: subprocess.Popen("start instagram:", shell=True),
     # "vscode": lambda: subprocess.Popen("Code.exe", shell=True),
     # "spotify": lambda: subprocess.Popen("shell:AppsFolder\\SpotifyAB.SpotifyMusic_zpdnekdrzrea0!Spotify", shell=True),
     "vscode": lambda: subprocess.Popen(
@@ -120,7 +119,6 @@ EXE_MAP = {
     "obs": "obs64.exe",
     "obs studio": "obs64.exe",
     "spotify": "spotify.exe",
-    "whatsapp" : "WhatsApp.exe",
     "photoshop": "Photoshop.exe",
     "adobe photoshop": "Photoshop.exe",
     "vlc": "vlc.exe",
@@ -132,19 +130,31 @@ EXE_MAP = {
     "control panel": "control.exe",
     "git bash": "mintty.exe",
     "adobe reader": "AcroRd32.exe",
+    "whatsapp": "whatsapp:",
+    "instagram": "instagram:",
 
 }
 
 def resolve_process_name(app):
-    # direct map first
+
+    # Special Windows Store apps (URI launch)
+    STORE_APPS = {
+        "whatsapp": "start whatsapp:",
+        "instagram": "start instagram:",
+    }
+
+    if app in STORE_APPS:
+        return STORE_APPS[app]
+
+    # direct exe map
     if app in EXE_MAP:
         return EXE_MAP[app]
 
-    # already an exe
+    # already exe
     if app.endswith(".exe"):
         return app
 
-    # fallback
+    # fallback guess
     return app + ".exe"
 
 
@@ -173,11 +183,18 @@ def normalize_command(command):
 
     # normalize app words
     command = command.replace("application", "")
-    command = command.replace("app", "")
+    # command = command.replace("app", "")
     command = command.replace("software", "")
 
     # remove extra spaces
     command = " ".join(command.split())
+
+    # ---- FIX SPLIT APP NAMES ----
+    command = command.replace("whats app", "whatsapp")
+    command = command.replace("what's app", "whatsapp")
+    command = command.replace("insta gram", "instagram")
+    command = command.replace("insta gram", "instagram")
+
     return command
 
 
@@ -248,11 +265,28 @@ def handle_command(command):
         speak("Relax mode activated")
         return
 
+
     # ===============================
     # ❌ CLOSE APP (FIXED VERSION)
     # ===============================
     if command.startswith("close "):
         app = command.replace("close", "").strip()
+        # --- SPECIAL STORE APP CLOSE FIX ---
+        if app == "whatsapp":
+            subprocess.Popen(
+                'powershell "Get-Process WhatsApp -ErrorAction SilentlyContinue | Stop-Process -Force"',
+                shell=True
+            )
+            speak("Closing whatsapp")
+            return
+
+        if app == "instagram":
+            subprocess.Popen(
+                'powershell "Get-Process Instagram -ErrorAction SilentlyContinue | Stop-Process -Force"',
+                shell=True
+            )
+            speak("Closing instagram")
+            return
 
         # print("DEBUG: trying to close:", app)
 
@@ -298,6 +332,10 @@ def handle_command(command):
     # ===============================
     if command.startswith("open "):
         app = command.replace("open", "").strip()
+        print("DEBUG APP =", app)
+
+
+
 
         # print("DEBUG: trying to open:", app)
 
@@ -320,7 +358,7 @@ def handle_command(command):
         if best_match:
             speak(f"Opening {DISPLAY_NAMES[best_match]}")
             try:
-                os.startfile(AUTO_APPS[best_match])
+                subprocess.Popen(f'start "" "{AUTO_APPS[best_match]}"', shell=True)
             except Exception:
                 speak("Failed to open app")
             return
@@ -330,10 +368,17 @@ def handle_command(command):
 
         try:
             speak(f"Opening {app}")
-            subprocess.Popen(exe, shell=True)
+
+            # URI apps need "start"
+            if exe.startswith("start "):
+                subprocess.Popen(exe, shell=True)
+            else:
+                subprocess.Popen(exe, shell=True)
+
             return
-        except:
-            pass
+        except Exception:
+            speak("Failed to open app")
+            return
 
     # ===============================
     # 🔍 SEARCH ON CHROME
@@ -386,5 +431,25 @@ def handle_command(command):
     if "date" in command:
         speak(datetime.datetime.now().strftime("Today is %A %d %B %Y"))
         return
+
+    # ===============================
+    # 🤖 RIYA INTRODUCTION
+    # ===============================
+    if (
+        "introduce yourself" in command
+        or "who are you" in command
+        or "about yourself" in command
+    ):
+        intro_text = (
+            "Hello, I am Riya, your personal voice assistant. "
+            "I can open applications, control your system, search the web, "
+            "and help you with daily tasks. "
+            "I am running locally on your computer and always ready to assist you."
+        )
+
+        speak(intro_text)
+        return
+
+
 
     speak("Sorry, I don't know this command yet")
