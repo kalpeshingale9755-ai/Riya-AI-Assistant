@@ -3,8 +3,10 @@ from pathlib import Path
 from riya_engine.memory.runtime_memory import get_opened_apps
 from datetime import datetime
 from riya_engine.capabilities.app_control import open_app
-
-
+from riya_engine.memory.runtime_memory import (
+    get_opened_apps,
+    clear_opened_apps
+)
 
 SESSION_FILE = Path(__file__).parent / "sessions.json"
 
@@ -41,6 +43,19 @@ def get_session(name):
 
 def save_current_session(name):
     apps = get_opened_apps()
+
+    if not apps:
+        print("[Session] No active apps to save")
+        return False
+
+    save_session(name, apps)
+
+    # ⭐ NEW — reset workspace memory
+    # clear_opened_apps()
+
+    return True
+
+
 
     if not apps:
         print("[Session] No active apps to save")

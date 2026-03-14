@@ -4,12 +4,28 @@
     },
     "history": [
         {
-            "user": "restore session browsing",
-            "riya": "Restoring session browsing."
+            "user": "close it",
+            "riya": "Closing notes."
         },
         {
-            "user": "hello",
-            "riya": "Welcome back Kalpesh."
+            "user": "close it",
+            "riya": "Closing notes."
+        },
+        {
+            "user": "close all apps",
+            "riya": "Done."
+        },
+        {
+            "user": "restore session notes",
+            "riya": "Restoring session notes."
+        },
+        {
+            "user": "close session",
+            "riya": "Closing session."
+        },
+        {
+            "user": "close all apps",
+            "riya": "Done."
         },
         {
             "user": "open chrome",
@@ -20,28 +36,12 @@
             "riya": "Opening notepad."
         },
         {
-            "user": "save session coding",
-            "riya": "Session coding saved."
+            "user": "save session work",
+            "riya": "Session work saved."
         },
         {
-            "user": "restore session coding",
-            "riya": "Restoring session coding."
-        },
-        {
-            "user": "open chrome",
-            "riya": "Opening chrome."
-        },
-        {
-            "user": "save session web",
-            "riya": "Session web saved."
-        },
-        {
-            "user": "open notepad",
-            "riya": "Opening notepad."
-        },
-        {
-            "user": "restore session web",
-            "riya": "Restoring session web."
+            "user": "focus work",
+            "riya": "Entering focus mode for work."
         }
     ]
 }

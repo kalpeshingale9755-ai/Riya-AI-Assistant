@@ -4,13 +4,7 @@
             "chrome",
             "notepad"
         ],
-        "hour": 14
-    },
-    "browsing": {
-        "apps": [
-            "chrome"
-        ],
-        "hour": 15
+        "hour": 18
     },
     "web": {
         "apps": [
@@ -18,5 +12,43 @@
             "notepad"
         ],
         "hour": 14
+    },
+    "notes": {
+        "apps": [
+            "notepad"
+        ],
+        "hour": 10
+    },
+    "browsing": {
+        "apps": [
+            "chrome"
+        ],
+        "hour": 18
+    },
+    "browser": {
+        "apps": [
+            "chrome"
+        ],
+        "hour": 18
+    },
+    "notebook": {
+        "apps": [
+            "notepad"
+        ],
+        "hour": 18
+    },
+    "work": {
+        "apps": [
+            "chrome",
+            "notepad"
+        ],
+        "hour": 10
+    },
+    "code": {
+        "apps": [
+            "chrome",
+            "notepad"
+        ],
+        "hour": 9
     }
 }

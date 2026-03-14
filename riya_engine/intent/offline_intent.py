@@ -1,4 +1,6 @@
 from riya_engine.intent.schema import Intent
+from riya_engine.memory.context_memory import get_last_entity
+
 
 APP_KEYWORDS = ["open", "launch", "start", "run"]
 
@@ -40,6 +42,16 @@ def detect_offline_intent(text: str):
             source="offline",
         )
 
+
+    # ⭐ reopen previous app
+    if "open it again" in text or "open again" in text:
+        return Intent(
+            intent="open_app",
+            entity=get_last_entity(),
+            confidence=0.9,
+            source="offline",
+        )
+
     # OPEN APP
     for keyword in APP_KEYWORDS:
         if keyword in words:
@@ -67,10 +79,14 @@ def detect_offline_intent(text: str):
             except IndexError:
                 app_name = None
 
+            # ⭐ CONTEXT AWARENESS
+            if app_name in ["it", "that", "app", None]:
+                app_name = get_last_entity()
+
             return Intent(
                 intent="close_app",
                 entity=app_name,
-                confidence=0.7,
+                confidence=0.8,
                 source="offline",
             )
 

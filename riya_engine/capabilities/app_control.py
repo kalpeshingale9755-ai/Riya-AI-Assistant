@@ -1,6 +1,6 @@
 import os
 import subprocess
-from riya_engine.memory.runtime_memory import remember_opened_app, forget_app
+from riya_engine.memory.runtime_memory import remember_app
 from riya_engine.memory.runtime_memory import get_opened_apps
 
 
@@ -28,7 +28,7 @@ def open_app(app_name: str):
 
     print(f"[Capability] Opening {app_name}")
     os.system(app["open"])
-    remember_opened_app(app_name)
+    remember_app(app_name)
     return True
 
 
@@ -40,7 +40,6 @@ def close_app(app_name: str):
 
     print(f"[Capability] Closing {app_name}")
     os.system(f'taskkill /IM {app["process"]} /F')
-    forget_app(app_name)
     return True
 
 
