@@ -1,0 +1,3297 @@
+{
+  "timestamp": "2026-05-26T14:13:15.276987",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "96443eee-171f-4bc6-a0be-f9e8ad9915fa",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-26T14:13:15.279005",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "96443eee-171f-4bc6-a0be-f9e8ad9915fa",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-26T14:13:15.280078",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "96443eee-171f-4bc6-a0be-f9e8ad9915fa",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:09:14.602007",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "da80dc6f-9fe3-41f9-851e-1d89d1be294e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:09:14.606902",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "da80dc6f-9fe3-41f9-851e-1d89d1be294e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:09:14.608150",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "da80dc6f-9fe3-41f9-851e-1d89d1be294e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "[WinError 2] The system cannot find the file specified"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:31:34.674285",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "5c835daa-6913-4b9b-bd2d-6d4b4f6dfb66",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:31:34.674285",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "5c835daa-6913-4b9b-bd2d-6d4b4f6dfb66",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:31:34.674285",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "5c835daa-6913-4b9b-bd2d-6d4b4f6dfb66",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'set' object has no attribute 'get'"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:34:47.606126",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "160b78e7-b25e-40a4-a9fe-0cf8a651991b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:34:47.612697",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "160b78e7-b25e-40a4-a9fe-0cf8a651991b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:34:47.613356",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "160b78e7-b25e-40a4-a9fe-0cf8a651991b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'set' object has no attribute 'get'"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:42:29.289933",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "42637082-2007-4ef3-b1a0-d3261a6d821d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:42:29.294899",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "42637082-2007-4ef3-b1a0-d3261a6d821d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T03:42:29.307704",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "42637082-2007-4ef3-b1a0-d3261a6d821d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T04:10:17.412326",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "d197a77b-6d40-470c-a443-4b2cc97d8006",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T04:10:17.414249",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "d197a77b-6d40-470c-a443-4b2cc97d8006",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T04:10:17.434461",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "d197a77b-6d40-470c-a443-4b2cc97d8006",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T12:39:46.954244",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "5cfc8c1b-5edc-4f57-8dca-93cc268af3b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:39:46.962097",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "5cfc8c1b-5edc-4f57-8dca-93cc268af3b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:39:46.976521",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "5cfc8c1b-5edc-4f57-8dca-93cc268af3b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T12:45:45.240072",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "37b6775d-eb27-4413-ba6d-839704aea5e6",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:45:45.241474",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "37b6775d-eb27-4413-ba6d-839704aea5e6",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:45:45.253431",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "37b6775d-eb27-4413-ba6d-839704aea5e6",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T12:46:03.832189",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "1d200f81-031e-4b37-914d-8ed3b27726af",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:46:03.832189",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "1d200f81-031e-4b37-914d-8ed3b27726af",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T12:46:04.253718",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "1d200f81-031e-4b37-914d-8ed3b27726af",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T15:21:30.310905",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "be1a1312-c9f4-4d2a-80ee-c435cb8d9f42",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:21:30.312927",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "be1a1312-c9f4-4d2a-80ee-c435cb8d9f42",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:21:30.333894",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "be1a1312-c9f4-4d2a-80ee-c435cb8d9f42",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.009894",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "18db991c-14d8-4449-a7f8-7987bb6663d4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.009894",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "18db991c-14d8-4449-a7f8-7987bb6663d4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.015434",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "18db991c-14d8-4449-a7f8-7987bb6663d4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.016443",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "088cf21b-0bf5-4f65-92b6-ba0297a6f0e2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.016443",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "088cf21b-0bf5-4f65-92b6-ba0297a6f0e2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.228104",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "088cf21b-0bf5-4f65-92b6-ba0297a6f0e2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.230120",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "027e4498-e70b-44ee-a1ea-0d9dff59cac4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.232987",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "027e4498-e70b-44ee-a1ea-0d9dff59cac4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-27T15:34:13.438119",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "027e4498-e70b-44ee-a1ea-0d9dff59cac4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-28T03:59:24.182271",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "2d050537-04cc-4388-8840-451adc596c30",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-28T03:59:24.184099",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "2d050537-04cc-4388-8840-451adc596c30",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-28T03:59:24.191466",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "2d050537-04cc-4388-8840-451adc596c30",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.055446",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "0aa55a26-b6df-4eac-be56-23f2f69acc93",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.058610",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "0aa55a26-b6df-4eac-be56-23f2f69acc93",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.075030",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "0aa55a26-b6df-4eac-be56-23f2f69acc93",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'NoneType' object has no attribute 'to_dict'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.079428",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "21859472-d01b-482d-b4ba-928b207dde18",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.080474",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "21859472-d01b-482d-b4ba-928b207dde18",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.386334",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "21859472-d01b-482d-b4ba-928b207dde18",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.391281",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "21859472-d01b-482d-b4ba-928b207dde18",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.396276",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "cbf0f632-4bc1-43ed-b4ff-8fd502bc3db1",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.397797",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "cbf0f632-4bc1-43ed-b4ff-8fd502bc3db1",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.622516",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "cbf0f632-4bc1-43ed-b4ff-8fd502bc3db1",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:24.624499",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "cbf0f632-4bc1-43ed-b4ff-8fd502bc3db1",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.022685",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "8fcfcba7-f3a4-42bc-b326-3358ee391ed7",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.022685",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "8fcfcba7-f3a4-42bc-b326-3358ee391ed7",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.031175",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "8fcfcba7-f3a4-42bc-b326-3358ee391ed7",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'NoneType' object has no attribute 'to_dict'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.033519",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "118eb027-c136-43bc-b204-3d6af5a12a81",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.036557",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "118eb027-c136-43bc-b204-3d6af5a12a81",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.283733",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "118eb027-c136-43bc-b204-3d6af5a12a81",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.285809",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "118eb027-c136-43bc-b204-3d6af5a12a81",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.290789",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "f2bb30fe-059a-475e-bdac-33a817148348",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.290789",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "f2bb30fe-059a-475e-bdac-33a817148348",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.588384",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "f2bb30fe-059a-475e-bdac-33a817148348",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:33.591084",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "f2bb30fe-059a-475e-bdac-33a817148348",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:47.868178",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "6fe7e867-566b-4671-9310-3568e9692e26",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:47.869218",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "6fe7e867-566b-4671-9310-3568e9692e26",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:47.876329",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "6fe7e867-566b-4671-9310-3568e9692e26",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'NoneType' object has no attribute 'to_dict'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:47.878386",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "9cc23a33-64b5-4c6d-9ee3-afeb8018c5c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:47.880979",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "9cc23a33-64b5-4c6d-9ee3-afeb8018c5c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.090280",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "9cc23a33-64b5-4c6d-9ee3-afeb8018c5c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.090280",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "9cc23a33-64b5-4c6d-9ee3-afeb8018c5c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.092041",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "296569b7-75da-4085-8d70-ad62872bb8d4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.095206",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "296569b7-75da-4085-8d70-ad62872bb8d4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.307802",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "296569b7-75da-4085-8d70-ad62872bb8d4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:31:48.307802",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "296569b7-75da-4085-8d70-ad62872bb8d4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:50.980073",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "59c35de9-1e47-40fb-b10d-b42880f1ec95",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:50.983044",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "59c35de9-1e47-40fb-b10d-b42880f1ec95",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:50.992773",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "59c35de9-1e47-40fb-b10d-b42880f1ec95",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "error": "'NoneType' object has no attribute 'to_dict'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:50.998148",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "9281070d-5bf8-4150-bb13-9dbdc263eb9e",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.000785",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "9281070d-5bf8-4150-bb13-9dbdc263eb9e",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.183394",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "9281070d-5bf8-4150-bb13-9dbdc263eb9e",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.183394",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "9281070d-5bf8-4150-bb13-9dbdc263eb9e",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.184505",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "a7be162a-2a4c-4f95-9082-3f4b56d40928",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.184505",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "a7be162a-2a4c-4f95-9082-3f4b56d40928",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.317499",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "a7be162a-2a4c-4f95-9082-3f4b56d40928",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:32:51.319024",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "a7be162a-2a4c-4f95-9082-3f4b56d40928",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    },
+    "error": "'RuntimeMemory' object has no attribute 'add_task'"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.371006",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "25165cf3-2401-44f7-9a76-4e4fc48f99b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.374363",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "25165cf3-2401-44f7-9a76-4e4fc48f99b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.386657",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "25165cf3-2401-44f7-9a76-4e4fc48f99b1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.390699",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ea974215-2b0b-4a13-98cf-72690fdcc053",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.394154",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ea974215-2b0b-4a13-98cf-72690fdcc053",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T11:58:37.828049",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ea974215-2b0b-4a13-98cf-72690fdcc053",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T12:10:53.197946",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "3f42afd2-b56d-4edd-b490-def825f64224",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:10:53.202636",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "3f42afd2-b56d-4edd-b490-def825f64224",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:10:53.213839",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "3f42afd2-b56d-4edd-b490-def825f64224",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T12:11:05.123814",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "64c0f629-521a-49f1-900d-a89fbb1a6215",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:11:05.126371",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "64c0f629-521a-49f1-900d-a89fbb1a6215",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:11:05.394203",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "64c0f629-521a-49f1-900d-a89fbb1a6215",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.780015",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "b31e0939-30d0-496a-bfa6-0a0555092bae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.783560",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "b31e0939-30d0-496a-bfa6-0a0555092bae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.792392",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "b31e0939-30d0-496a-bfa6-0a0555092bae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.798179",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "5e4c5e0e-d837-4493-90d2-61a35bacc08f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.798179",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "5e4c5e0e-d837-4493-90d2-61a35bacc08f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T12:13:17.804489",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "5e4c5e0e-d837-4493-90d2-61a35bacc08f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.719158",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "f29a9442-e576-4007-bee3-f9c196739735",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.722195",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "f29a9442-e576-4007-bee3-f9c196739735",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.732326",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "f29a9442-e576-4007-bee3-f9c196739735",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.733836",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "c5746685-3dce-4bda-9dc1-e6525821c8c9",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.734850",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "c5746685-3dce-4bda-9dc1-e6525821c8c9",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.988413",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "c5746685-3dce-4bda-9dc1-e6525821c8c9",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://www.youtube.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.990157",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "abc8738f-e98b-4739-98b9-3afa07a20955",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:06.993953",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "abc8738f-e98b-4739-98b9-3afa07a20955",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:05:07.060530",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "abc8738f-e98b-4739-98b9-3afa07a20955",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.189160",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "38febfd2-fb9f-410d-8cf5-7ee0cd4c9aae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.190588",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "38febfd2-fb9f-410d-8cf5-7ee0cd4c9aae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.198737",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "38febfd2-fb9f-410d-8cf5-7ee0cd4c9aae",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.203611",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "718b52b0-7a11-467a-80a3-58bc812a42e5",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.203611",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "718b52b0-7a11-467a-80a3-58bc812a42e5",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.296290",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "718b52b0-7a11-467a-80a3-58bc812a42e5",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://www.youtube.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.299099",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "6cff758f-2629-463c-97ab-ec2d3d42f17d",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.301817",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "6cff758f-2629-463c-97ab-ec2d3d42f17d",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:07:42.380430",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "6cff758f-2629-463c-97ab-ec2d3d42f17d",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.412217",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "e5650f3e-8f1a-44e5-9c78-e759016ec509",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.413629",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "e5650f3e-8f1a-44e5-9c78-e759016ec509",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.421199",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "e5650f3e-8f1a-44e5-9c78-e759016ec509",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.424416",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "19d9bcc8-585a-49ca-bc0a-bf190e5a55c8",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.426166",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "19d9bcc8-585a-49ca-bc0a-bf190e5a55c8",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.507547",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "19d9bcc8-585a-49ca-bc0a-bf190e5a55c8",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://www.youtube.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.515752",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "4b097459-4398-42e6-9444-8f76b097d219",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.516899",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "4b097459-4398-42e6-9444-8f76b097d219",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:10:24.613162",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "4b097459-4398-42e6-9444-8f76b097d219",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.362741",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "b234e0f9-d226-4764-85dd-845585de0662",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.365598",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "b234e0f9-d226-4764-85dd-845585de0662",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.368826",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "b234e0f9-d226-4764-85dd-845585de0662",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.374060",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "53d446da-6266-4d1f-a983-7207ce484f10",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.374060",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "53d446da-6266-4d1f-a983-7207ce484f10",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.434005",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "53d446da-6266-4d1f-a983-7207ce484f10",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://www.youtube.com"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://www.youtube.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.437998",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "4618ce7f-804e-4d6c-8df8-a24e397ad26e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "c++ course"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.441222",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "4618ce7f-804e-4d6c-8df8-a24e397ad26e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "c++ course"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:11:20.513694",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "4618ce7f-804e-4d6c-8df8-a24e397ad26e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "c++ course"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "c++ course"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.126414",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "cef74e74-0adc-442d-89fd-5af893dfea65",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.126414",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "cef74e74-0adc-442d-89fd-5af893dfea65",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.136516",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "cef74e74-0adc-442d-89fd-5af893dfea65",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.141350",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "aa6ba4b1-c88c-4478-803b-4c96a69b9ddd",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.141350",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "aa6ba4b1-c88c-4478-803b-4c96a69b9ddd",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T14:19:43.486047",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "aa6ba4b1-c88c-4478-803b-4c96a69b9ddd",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:19.826042",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ac97d8c2-27d7-4318-8ad9-b279808d616b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:19.830639",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ac97d8c2-27d7-4318-8ad9-b279808d616b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:19.843468",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ac97d8c2-27d7-4318-8ad9-b279808d616b",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:19.847087",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "33e989ed-e39c-4a0d-aa8d-d9dc2db43e2c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:19.849745",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "33e989ed-e39c-4a0d-aa8d-d9dc2db43e2c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "RUNNING"
+  }
+}
+{
+  "timestamp": "2026-05-29T15:46:20.222808",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "33e989ed-e39c-4a0d-aa8d-d9dc2db43e2c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "SUCCESS",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.075612",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "b30dd4c8-d3ab-417a-9dcf-7d1dd2f579d0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.079768",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "b30dd4c8-d3ab-417a-9dcf-7d1dd2f579d0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "5c0521f1-da84-4bda-a9c8-1d5097b5acf6"
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.089265",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "b30dd4c8-d3ab-417a-9dcf-7d1dd2f579d0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "5c0521f1-da84-4bda-a9c8-1d5097b5acf6",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.093314",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "c1e65e97-6c16-4800-9efd-72e4fbbfe70c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.093891",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "c1e65e97-6c16-4800-9efd-72e4fbbfe70c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "5c0521f1-da84-4bda-a9c8-1d5097b5acf6"
+  }
+}
+{
+  "timestamp": "2026-05-29T16:40:44.510028",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "c1e65e97-6c16-4800-9efd-72e4fbbfe70c",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "5c0521f1-da84-4bda-a9c8-1d5097b5acf6",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.713802",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "e61360cc-6fda-4442-99a6-19a5eac80029",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.713802",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "e61360cc-6fda-4442-99a6-19a5eac80029",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "736365ab-2312-4b4d-9359-7c8930ff39d7"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.720156",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "e61360cc-6fda-4442-99a6-19a5eac80029",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "736365ab-2312-4b4d-9359-7c8930ff39d7",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.727169",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "1ac609bd-163b-404c-ba25-f8c918567977",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.728195",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "1ac609bd-163b-404c-ba25-f8c918567977",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "736365ab-2312-4b4d-9359-7c8930ff39d7"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:45:19.988530",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "1ac609bd-163b-404c-ba25-f8c918567977",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "736365ab-2312-4b4d-9359-7c8930ff39d7",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T03:56:24.093859",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "3d609642-da67-430c-8f17-94aa2bc2ec92",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:56:24.094859",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "3d609642-da67-430c-8f17-94aa2bc2ec92",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "594c7cce-8803-40e8-a557-532496821e9d"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:56:24.094859",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "3d609642-da67-430c-8f17-94aa2bc2ec92",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "594c7cce-8803-40e8-a557-532496821e9d",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:59:12.878020",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "49dde70b-1d2f-4946-869f-b5e10a75105a",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:59:12.878020",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "49dde70b-1d2f-4946-869f-b5e10a75105a",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "6af46431-508e-4709-9acf-57207252a4a8"
+  }
+}
+{
+  "timestamp": "2026-05-30T03:59:12.878020",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "49dde70b-1d2f-4946-869f-b5e10a75105a",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "6af46431-508e-4709-9acf-57207252a4a8",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:01:10.185454",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "7b4e794e-5987-496a-bbaf-4f152a7ac665",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:01:10.185454",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "7b4e794e-5987-496a-bbaf-4f152a7ac665",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "811982b4-7983-42f8-9be4-ff8eb3afa1fa"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:01:10.186564",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "7b4e794e-5987-496a-bbaf-4f152a7ac665",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "811982b4-7983-42f8-9be4-ff8eb3afa1fa",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.120401",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "1d56f329-905c-4953-b604-fe878f961a18",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.120401",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "1d56f329-905c-4953-b604-fe878f961a18",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "dc539385-1149-4105-96be-e1f76f913ca6"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.121806",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "1d56f329-905c-4953-b604-fe878f961a18",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "dc539385-1149-4105-96be-e1f76f913ca6",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.123291",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "f5066f89-6e0f-422c-99a2-23bb8b3da6eb",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.123798",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "f5066f89-6e0f-422c-99a2-23bb8b3da6eb",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "1e461b2d-4aa2-455f-a5d4-93ffa2a40837"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.123798",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "f5066f89-6e0f-422c-99a2-23bb8b3da6eb",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "1e461b2d-4aa2-455f-a5d4-93ffa2a40837",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.123798",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "df9046fd-5a59-493d-8da5-7229f3a2e4f3",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.123798",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "df9046fd-5a59-493d-8da5-7229f3a2e4f3",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "4746ce6f-3de7-4664-a244-4383d61725c3"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.126335",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "df9046fd-5a59-493d-8da5-7229f3a2e4f3",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "4746ce6f-3de7-4664-a244-4383d61725c3",
+    "error": "not enough values to unpack (expected 2, got 0)"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.128362",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "cd391b4c-1d4b-4e12-b02a-79da27a1f5cf",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.128362",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "cd391b4c-1d4b-4e12-b02a-79da27a1f5cf",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "b47780d0-4a65-425f-a2e6-850d82072a88"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.128362",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "cd391b4c-1d4b-4e12-b02a-79da27a1f5cf",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "b47780d0-4a65-425f-a2e6-850d82072a88",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.128362",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "fa23c49c-a72e-4f09-ad31-78bcca24e9c7",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.129104",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "fa23c49c-a72e-4f09-ad31-78bcca24e9c7",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "b47780d0-4a65-425f-a2e6-850d82072a88"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.129104",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "fa23c49c-a72e-4f09-ad31-78bcca24e9c7",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "b47780d0-4a65-425f-a2e6-850d82072a88",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.130833",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "f842ed99-e32b-49a2-88c9-2c1a78996cb8",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.130833",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "f842ed99-e32b-49a2-88c9-2c1a78996cb8",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "9830e0a1-5638-4f23-82d0-dc201147ac35"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:49:24.130833",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "f842ed99-e32b-49a2-88c9-2c1a78996cb8",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "9830e0a1-5638-4f23-82d0-dc201147ac35",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.002415",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "4f24f205-5983-4e67-a9e4-ff7ead2acb10",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.002925",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "4f24f205-5983-4e67-a9e4-ff7ead2acb10",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "29d137a2-276d-4832-907a-8d2bcdecf096"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.002925",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "4f24f205-5983-4e67-a9e4-ff7ead2acb10",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "29d137a2-276d-4832-907a-8d2bcdecf096",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.003932",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "6fd54dff-0704-4116-9c1e-500b5b956e1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.003932",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "6fd54dff-0704-4116-9c1e-500b5b956e1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "b6d5c95f-14ba-425f-bb1d-94d9375699c7"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.003932",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "6fd54dff-0704-4116-9c1e-500b5b956e1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "b6d5c95f-14ba-425f-bb1d-94d9375699c7",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.005437",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ef2cbf6e-a1f3-4d7e-ba7b-0ccb1fa0799f",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.005437",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ef2cbf6e-a1f3-4d7e-ba7b-0ccb1fa0799f",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "1af198db-6751-49b7-b19e-43f72516f358"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.005437",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ef2cbf6e-a1f3-4d7e-ba7b-0ccb1fa0799f",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "1af198db-6751-49b7-b19e-43f72516f358",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.007500",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "3948ce11-2a0a-4f30-863f-9d7e3316dda9",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.007500",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "3948ce11-2a0a-4f30-863f-9d7e3316dda9",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "efb2f8f8-7087-44be-a9ef-fc2e0615d173"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.007500",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "3948ce11-2a0a-4f30-863f-9d7e3316dda9",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "efb2f8f8-7087-44be-a9ef-fc2e0615d173",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.007500",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "dc00b05a-64a9-43da-9f6a-1e2a777274ab",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.007500",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "dc00b05a-64a9-43da-9f6a-1e2a777274ab",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "efb2f8f8-7087-44be-a9ef-fc2e0615d173"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.008147",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "dc00b05a-64a9-43da-9f6a-1e2a777274ab",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "efb2f8f8-7087-44be-a9ef-fc2e0615d173",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.009827",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "61e1602b-e67b-47a5-802c-f01c989e612d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.009827",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "61e1602b-e67b-47a5-802c-f01c989e612d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "496bcecd-53c5-44f1-aaac-4f787ef17494"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:50:16.009827",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "61e1602b-e67b-47a5-802c-f01c989e612d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "496bcecd-53c5-44f1-aaac-4f787ef17494",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:02.913054",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "f07ca2c8-4f80-41ee-8d0f-342ffc9b51a2",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:02.913054",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "f07ca2c8-4f80-41ee-8d0f-342ffc9b51a2",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "623a5f56-9869-4f76-a4f5-313c1ef07017"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:02.913054",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "f07ca2c8-4f80-41ee-8d0f-342ffc9b51a2",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "623a5f56-9869-4f76-a4f5-313c1ef07017",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.116210",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "e05aeee2-4465-435c-8600-bb958fe3ac5c",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.116210",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "e05aeee2-4465-435c-8600-bb958fe3ac5c",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "3fa8ad4f-e1a2-4fac-9a44-dae0d9a97273"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.116210",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "e05aeee2-4465-435c-8600-bb958fe3ac5c",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "3fa8ad4f-e1a2-4fac-9a44-dae0d9a97273",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.118219",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ffca5fb5-7954-4a30-8e96-b7b333759d28",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.118219",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ffca5fb5-7954-4a30-8e96-b7b333759d28",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "f6d22dd6-36e5-4b6f-9728-8abaece21e46"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.118219",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ffca5fb5-7954-4a30-8e96-b7b333759d28",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "f6d22dd6-36e5-4b6f-9728-8abaece21e46",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.119219",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "592674b2-af48-43c0-a30d-4970447762f0",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.119219",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "592674b2-af48-43c0-a30d-4970447762f0",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "7682d47a-ffa1-43b7-81a3-6a6445008ee4"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.119219",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "592674b2-af48-43c0-a30d-4970447762f0",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "7682d47a-ffa1-43b7-81a3-6a6445008ee4",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.120222",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "c5d60837-dbe4-4757-abd7-c5dfb088449f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.121286",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "c5d60837-dbe4-4757-abd7-c5dfb088449f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "c1451d8c-34b6-415d-9c89-c4806c0108c6"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.121286",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "c5d60837-dbe4-4757-abd7-c5dfb088449f",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "c1451d8c-34b6-415d-9c89-c4806c0108c6",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.121286",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "eda00032-f332-40cb-a3e7-3c4bcf7bc71e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.121286",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "eda00032-f332-40cb-a3e7-3c4bcf7bc71e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "c1451d8c-34b6-415d-9c89-c4806c0108c6"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.121286",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "eda00032-f332-40cb-a3e7-3c4bcf7bc71e",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "c1451d8c-34b6-415d-9c89-c4806c0108c6",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.123283",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "d2f113aa-d5d0-46d3-992b-fa787eb6f4b4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.123283",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "d2f113aa-d5d0-46d3-992b-fa787eb6f4b4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "eff2769c-dd32-48e6-acde-b53381b40ec8"
+  }
+}
+{
+  "timestamp": "2026-05-30T04:56:06.123283",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "d2f113aa-d5d0-46d3-992b-fa787eb6f4b4",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "eff2769c-dd32-48e6-acde-b53381b40ec8",
+    "error": "Intentional workflow failure test"
+  }
+}

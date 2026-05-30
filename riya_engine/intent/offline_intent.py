@@ -1,18 +1,32 @@
 from riya_engine.intent.schema import Intent
 from riya_engine.memory.context_memory import get_last_entity
+from riya_engine.nlp.entity_normalizer import normalize_app_name
 
 
-APP_KEYWORDS = ["open", "launch", "start", "run"]
+
+OPEN_KEYWORDS = ["open", "launch", "start", "run"]
+IGNORE_WORDS = ["and", "then", "please", "app", "the"]
 
 def detect_offline_intent(text: str):
     text = text.lower()
     words = text.split()
 
-    # FOCUS MODE
+    # -------------------------
+    # FOCUS MODE (FIXED)
+    # -------------------------
     if "focus" in words:
+
         try:
             index = words.index("focus")
-            session = words[index + 1]
+
+            # support: "focus mode study"
+            if len(words) > index + 2 and words[index + 1] == "mode":
+                session = words[index + 2]
+
+            # support: "focus study"
+            else:
+                session = words[index + 1]
+
         except IndexError:
             session = "default"
 
@@ -52,48 +66,94 @@ def detect_offline_intent(text: str):
             source="offline",
         )
 
-    # OPEN APP
-    for keyword in APP_KEYWORDS:
-        if keyword in words:
-            try:
-                index = words.index(keyword)
-                app_name = words[index + 1]
-            except IndexError:
-                app_name = None
 
-            return Intent(
-                intent="open_app",
-                entity=app_name,
-                confidence=0.7,
-                source="offline",
+    # OPEN APP (multi-entity support)
+    for keyword in OPEN_KEYWORDS:
+        if keyword in words:
+            index = words.index(keyword)
+
+            # # take everything after keyword
+            # app_names = [
+            #     w for w in words[index + 1:]
+            #     if w not in IGNORE_WORDS
+            # ]
+
+            app_phrase = " ".join(words[index + 1:])
+
+            app_phrase = " ".join(
+                w for w in app_phrase.split()
+                if w not in IGNORE_WORDS
             )
 
+            normalized_app = normalize_app_name(app_phrase)
+
+            return [
+                Intent(
+                    intent="open_app",
+                    entity=normalized_app,
+                    confidence=0.8,
+                    source="offline",
+                )
+            ]
+
+            if not app_names:
+                last_entity = get_last_entity()
+
+                print(f"[DEBUG] Using memory entity: {last_entity}")
+
+                return Intent(
+                    intent="open_app",
+                    entity=last_entity,
+                    confidence=0.8,
+                    source="offline",
+                )
+
+
+            # return multiple intents
+            return [
+                Intent(
+                    intent="open_app",
+                    entity=normalize_app_name(app),
+                    confidence=0.8,
+                    source="offline",
+                )
+                for app in app_names
+            ]
+
+    
+    # CLOSE APP
     CLOSE_KEYWORDS = ["close", "exit", "quit", "stop"]
 
-    # CLOSE APP
     for keyword in CLOSE_KEYWORDS:
         if keyword in words:
-            try:
-                index = words.index(keyword)
-                app_name = words[index + 1]
-            except IndexError:
-                app_name = None
+            index = words.index(keyword)
 
-            # ⭐ CONTEXT AWARENESS
-            if app_name in ["it", "that", "app", None]:
-                app_name = get_last_entity()
+            # build phrase after keyword
+            app_phrase = " ".join(words[index + 1:])
 
-            return Intent(
-                intent="close_app",
-                entity=app_name,
-                confidence=0.8,
-                source="offline",
+            # remove filler words
+            app_phrase = " ".join(
+                w for w in app_phrase.split()
+                if w not in IGNORE_WORDS
             )
 
-    # FALLBACK
-    return Intent(
-        intent="unknown",
-        entity=None,
-        confidence=0.2,
-        source="offline",
-    )
+            normalized_app = normalize_app_name(app_phrase)
+
+            # ⭐ ENTITY RESOLUTION (single source of truth)
+            if normalized_app in ["", None, "it", "that", "again", "app", "application"]:
+                last_entity = get_last_entity()
+                print(f"[DEBUG] Using memory entity: {last_entity}")
+
+                if not last_entity:
+                    return Intent("unknown", None, 0.2, "offline")
+
+                normalized_app = last_entity
+
+            return [
+                Intent(
+                    intent="close_app",
+                    entity=normalized_app,
+                    confidence=0.8,
+                    source="offline",
+                )
+            ]

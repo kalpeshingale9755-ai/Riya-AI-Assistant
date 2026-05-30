@@ -5,43 +5,43 @@
     "history": [
         {
             "user": "close it",
-            "riya": "Closing notes."
-        },
-        {
-            "user": "close it",
-            "riya": "Closing notes."
-        },
-        {
-            "user": "close all apps",
-            "riya": "Done."
-        },
-        {
-            "user": "restore session notes",
-            "riya": "Restoring session notes."
-        },
-        {
-            "user": "close session",
-            "riya": "Closing session."
-        },
-        {
-            "user": "close all apps",
-            "riya": "Done."
-        },
-        {
-            "user": "open chrome",
-            "riya": "Opening chrome."
+            "riya": "Closing notepad."
         },
         {
             "user": "open notepad",
             "riya": "Opening notepad."
         },
         {
-            "user": "save session work",
-            "riya": "Session work saved."
+            "user": "save session study",
+            "riya": "Session study saved."
         },
         {
-            "user": "focus work",
-            "riya": "Entering focus mode for work."
+            "user": "close notepad",
+            "riya": "Closing notepad."
+        },
+        {
+            "user": "focus mode study",
+            "riya": "Entering focus mode for study."
+        },
+        {
+            "user": "close it",
+            "riya": "Closing study."
+        },
+        {
+            "user": "close notepad",
+            "riya": "Closing notepad."
+        },
+        {
+            "user": "focus mode study",
+            "riya": "Entering focus mode for study."
+        },
+        {
+            "user": "close it",
+            "riya": "Closing study."
+        },
+        {
+            "user": "close notepad",
+            "riya": "Closing notepad."
         }
     ]
 }

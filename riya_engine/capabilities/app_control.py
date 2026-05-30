@@ -39,7 +39,7 @@ def close_app(app_name: str):
         return False
 
     print(f"[Capability] Closing {app_name}")
-    os.system(f'taskkill /IM {app["process"]} /F')
+    os.system(f'taskkill /IM {app["process"]} /F /T')
     return True
 
 

@@ -5,8 +5,11 @@ def route_input(text):
     """
 
     offline_keywords = [
-        "open",  "close",  "shutdown",  "time",  "date",  "play",
-        "pause",  "volume",  "music",  "save",  "restore",  "focus"
+        "open", "launch", "start", "run",   # ⭐ ADD THESE
+        "close", "exit", "quit", "stop",
+        "shutdown", "time", "date",
+        "play", "pause", "volume", "music",
+        "save", "restore", "focus"
     ]
 
     text_lower = text.lower()

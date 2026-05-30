@@ -50,5 +50,18 @@
             "notepad"
         ],
         "hour": 9
+    },
+    "notic": {
+        "apps": [
+            "notepad",
+            "chrome"
+        ],
+        "hour": 18
+    },
+    "study": {
+        "apps": [
+            "notepad"
+        ],
+        "hour": 18
     }
 }
