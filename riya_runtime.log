@@ -3295,3 +3295,1098 @@
     "error": "Intentional workflow failure test"
   }
 }
+{
+  "timestamp": "2026-05-30T06:31:15.436779",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ad7becc1-fb83-4d17-981e-92d0e0c887d2",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.438167",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ad7becc1-fb83-4d17-981e-92d0e0c887d2",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "RUNNING",
+    "workflow_id": "9a542204-5f19-487d-9d6e-ef9f712c6ca8"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.440223",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ad7becc1-fb83-4d17-981e-92d0e0c887d2",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "9a542204-5f19-487d-9d6e-ef9f712c6ca8",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "notepad"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.450886",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "98c614f0-cfec-45a7-8dd2-a847e346a9b4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.450886",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "98c614f0-cfec-45a7-8dd2-a847e346a9b4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "RUNNING",
+    "workflow_id": "a1dd1607-1e85-42c5-b736-2c09b8b5e985"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.452961",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "98c614f0-cfec-45a7-8dd2-a847e346a9b4",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "a1dd1607-1e85-42c5-b736-2c09b8b5e985",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "notepad"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.460635",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "7ba73130-9ffb-4349-bacb-202aa81f0f50",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.460635",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "7ba73130-9ffb-4349-bacb-202aa81f0f50",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "RUNNING",
+    "workflow_id": "ec424cba-450f-49bb-b561-be249ab5aa1e"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.463187",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "7ba73130-9ffb-4349-bacb-202aa81f0f50",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "ec424cba-450f-49bb-b561-be249ab5aa1e",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "vscode"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.471338",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "2823103e-936f-4960-a4c1-c680316131f7",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.471338",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "2823103e-936f-4960-a4c1-c680316131f7",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "RUNNING",
+    "workflow_id": "24342df0-375c-4bfe-a829-22d24f13587c"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:15.475401",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "2823103e-936f-4960-a4c1-c680316131f7",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "24342df0-375c-4bfe-a829-22d24f13587c",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "vscode"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:32.753697",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "4a4ef22b-80fc-4841-8d99-8b533d9b0a5f",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:32.753697",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "4a4ef22b-80fc-4841-8d99-8b533d9b0a5f",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "4db7476b-bf26-49f3-9563-c3673aae0506"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:32.753697",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "4a4ef22b-80fc-4841-8d99-8b533d9b0a5f",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "4db7476b-bf26-49f3-9563-c3673aae0506",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.164752",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "aa94af20-6a4f-4c9c-ab19-9ce51a97f67e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.164752",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "aa94af20-6a4f-4c9c-ab19-9ce51a97f67e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "e3dd0c11-3670-4ac1-9206-15fe869c6714"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.164752",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "aa94af20-6a4f-4c9c-ab19-9ce51a97f67e",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "e3dd0c11-3670-4ac1-9206-15fe869c6714",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.170294",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "9588b507-47db-4213-b311-9968b0d07822",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.170294",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "9588b507-47db-4213-b311-9968b0d07822",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "16b81fc8-f4c5-4370-879f-af877f28ee31"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.170294",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "9588b507-47db-4213-b311-9968b0d07822",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "16b81fc8-f4c5-4370-879f-af877f28ee31",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.170294",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "7541414e-8645-41ec-b5f2-68068ffd9489",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.170294",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "7541414e-8645-41ec-b5f2-68068ffd9489",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "383900de-6a3a-4fb6-9807-7d6542099223"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.172685",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "7541414e-8645-41ec-b5f2-68068ffd9489",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "383900de-6a3a-4fb6-9807-7d6542099223",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.177957",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "21da806d-ac20-42e8-82a3-697b6c1b7ed0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.178847",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "21da806d-ac20-42e8-82a3-697b6c1b7ed0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "879adb00-cd9d-4f19-a19a-54a3c6fd5149"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.178847",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "21da806d-ac20-42e8-82a3-697b6c1b7ed0",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "879adb00-cd9d-4f19-a19a-54a3c6fd5149",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.180629",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "527a6a76-283c-47d2-831e-58995dda6a88",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.180629",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "527a6a76-283c-47d2-831e-58995dda6a88",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "879adb00-cd9d-4f19-a19a-54a3c6fd5149"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.181716",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "527a6a76-283c-47d2-831e-58995dda6a88",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "879adb00-cd9d-4f19-a19a-54a3c6fd5149",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.186917",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "a730169d-2834-42c5-9e6a-1afe9e6aeec3",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.186917",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "a730169d-2834-42c5-9e6a-1afe9e6aeec3",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "83e2c463-3378-4e78-8f39-ec7eccfc12d3"
+  }
+}
+{
+  "timestamp": "2026-05-30T06:31:34.186917",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "a730169d-2834-42c5-9e6a-1afe9e6aeec3",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "83e2c463-3378-4e78-8f39-ec7eccfc12d3",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.843896",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "07d365bd-852e-46a5-b868-fa2cc2a341e7",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://google.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.845104",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "07d365bd-852e-46a5-b868-fa2cc2a341e7",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://google.com"
+    },
+    "state": "RUNNING",
+    "workflow_id": "fa44a126-e1c0-4015-b731-e657b6044fe5"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.847545",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "07d365bd-852e-46a5-b868-fa2cc2a341e7",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://google.com"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "fa44a126-e1c0-4015-b731-e657b6044fe5",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://google.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.854796",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "2cd223d4-4743-4d2f-8538-1cafac353488",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://github.com"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.856592",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "2cd223d4-4743-4d2f-8538-1cafac353488",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://github.com"
+    },
+    "state": "RUNNING",
+    "workflow_id": "6f2b3c29-aea9-4740-b82b-4ad92f709187"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.856592",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "2cd223d4-4743-4d2f-8538-1cafac353488",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://github.com"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "6f2b3c29-aea9-4740-b82b-4ad92f709187",
+    "result": {
+      "success": true,
+      "data": {
+        "url": "https://github.com"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.865082",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "baf9c0ce-8237-476c-a476-df1ddcc62658",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://bad.url"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.867183",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "baf9c0ce-8237-476c-a476-df1ddcc62658",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://bad.url"
+    },
+    "state": "RUNNING",
+    "workflow_id": "c4424fdc-0bbf-477b-84d1-d603100c05ef"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:33:27.867183",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "baf9c0ce-8237-476c-a476-df1ddcc62658",
+    "capability": "open_url",
+    "payload": {
+      "url": "https://bad.url"
+    },
+    "state": "FAILED",
+    "workflow_id": "c4424fdc-0bbf-477b-84d1-d603100c05ef",
+    "error": "connection refused"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.666972",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "0557b8bc-e753-40a7-ab37-dac51a28fe1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.666972",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "0557b8bc-e753-40a7-ab37-dac51a28fe1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "RUNNING",
+    "workflow_id": "34e1dfe0-73a6-44f1-9561-f0f01b0c74f4"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.666972",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "0557b8bc-e753-40a7-ab37-dac51a28fe1d",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "34e1dfe0-73a6-44f1-9561-f0f01b0c74f4",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "notepad"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.677678",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "bf3a56d8-5d1d-44d7-8d18-f556ad4c8612",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.677678",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "bf3a56d8-5d1d-44d7-8d18-f556ad4c8612",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "RUNNING",
+    "workflow_id": "bfa25e51-adb6-4ee7-b67c-cc1d2e3116e2"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.679281",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "bf3a56d8-5d1d-44d7-8d18-f556ad4c8612",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "notepad"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "bfa25e51-adb6-4ee7-b67c-cc1d2e3116e2",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "notepad"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.683622",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "942d0185-97bf-44e4-bb57-7af569861cbe",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.688244",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "942d0185-97bf-44e4-bb57-7af569861cbe",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "RUNNING",
+    "workflow_id": "0fb91ee2-0cf4-4523-b34b-a03d6fa3a35d"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.688244",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "942d0185-97bf-44e4-bb57-7af569861cbe",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "0fb91ee2-0cf4-4523-b34b-a03d6fa3a35d",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "vscode"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.697180",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "a3bc55f2-8de2-47d9-9e88-8f90424b30c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.698755",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "a3bc55f2-8de2-47d9-9e88-8f90424b30c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "RUNNING",
+    "workflow_id": "3dbe952c-18c5-4e0c-baa9-490475e98cd5"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:07.699079",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "a3bc55f2-8de2-47d9-9e88-8f90424b30c2",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "vscode"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "3dbe952c-18c5-4e0c-baa9-490475e98cd5",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "vscode"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.576070",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "39a9d76b-8f5a-42d9-876a-8c9e4d55cc98",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.576651",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "39a9d76b-8f5a-42d9-876a-8c9e4d55cc98",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "4537b213-4abe-4309-a3ac-3eaf8eb499a4"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.576651",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "39a9d76b-8f5a-42d9-876a-8c9e4d55cc98",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "4537b213-4abe-4309-a3ac-3eaf8eb499a4",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.586457",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "d8feaa20-29da-4de8-81bc-41affd0b4e62",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.586457",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "d8feaa20-29da-4de8-81bc-41affd0b4e62",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "f12019e6-aaea-4fc4-86ad-e2adae40b7f2"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.588591",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "d8feaa20-29da-4de8-81bc-41affd0b4e62",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "f12019e6-aaea-4fc4-86ad-e2adae40b7f2",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.591036",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "9126ab7a-09dd-4285-8535-15d3e9e7fdd6",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.591036",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "9126ab7a-09dd-4285-8535-15d3e9e7fdd6",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "feecbdc0-df37-4602-9ba4-d9d9141ab5fb"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.591036",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "9126ab7a-09dd-4285-8535-15d3e9e7fdd6",
+    "capability": "close_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "feecbdc0-df37-4602-9ba4-d9d9141ab5fb",
+    "result": {
+      "success": true,
+      "data": {
+        "closed_app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.603234",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "ef69041b-ce51-4148-9381-ec221055a5e1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.604370",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "ef69041b-ce51-4148-9381-ec221055a5e1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "7a48f152-c1d1-4b70-a8d7-49d4db4cbc95"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.604734",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "ef69041b-ce51-4148-9381-ec221055a5e1",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "7a48f152-c1d1-4b70-a8d7-49d4db4cbc95",
+    "result": {
+      "success": true,
+      "data": {
+        "app": "chrome"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.605826",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "8ddca649-309a-4226-8016-3c40b0242345",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.606546",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "8ddca649-309a-4226-8016-3c40b0242345",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "RUNNING",
+    "workflow_id": "7a48f152-c1d1-4b70-a8d7-49d4db4cbc95"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.607263",
+  "event": "TASK_COMPLETED",
+  "data": {
+    "task_id": "8ddca649-309a-4226-8016-3c40b0242345",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "lofi music"
+    },
+    "state": "SUCCESS",
+    "workflow_id": "7a48f152-c1d1-4b70-a8d7-49d4db4cbc95",
+    "result": {
+      "success": true,
+      "data": {
+        "query": "lofi music"
+      },
+      "error": null
+    }
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.619433",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "aae9f4c3-185a-4647-b4e4-b2677781d837",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.621461",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "aae9f4c3-185a-4647-b4e4-b2677781d837",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "RUNNING",
+    "workflow_id": "47d7cfda-ef23-4e81-861b-7f56d7610903"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:16.621461",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "aae9f4c3-185a-4647-b4e4-b2677781d837",
+    "capability": "open_app",
+    "payload": {
+      "app_name": "chrome"
+    },
+    "state": "FAILED",
+    "workflow_id": "47d7cfda-ef23-4e81-861b-7f56d7610903",
+    "error": "Intentional workflow failure test"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:27.380208",
+  "event": "TASK_CREATED",
+  "data": {
+    "task_id": "27626bd5-db99-4e78-9c31-9424ccb0dc63",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "PENDING"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:27.380208",
+  "event": "TASK_STARTED",
+  "data": {
+    "task_id": "27626bd5-db99-4e78-9c31-9424ccb0dc63",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "RUNNING",
+    "workflow_id": "dd16ffa4-76dd-4e19-a938-55405ecb2e7f"
+  }
+}
+{
+  "timestamp": "2026-05-30T09:34:27.380208",
+  "event": "TASK_FAILED",
+  "data": {
+    "task_id": "27626bd5-db99-4e78-9c31-9424ccb0dc63",
+    "capability": "search_youtube",
+    "payload": {
+      "query": "failure test video"
+    },
+    "state": "FAILED",
+    "workflow_id": "dd16ffa4-76dd-4e19-a938-55405ecb2e7f",
+    "error": "Intentional workflow failure test"
+  }
+}

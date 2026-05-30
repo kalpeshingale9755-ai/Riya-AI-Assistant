@@ -71,13 +71,6 @@ def detect_offline_intent(text: str):
     for keyword in OPEN_KEYWORDS:
         if keyword in words:
             index = words.index(keyword)
-
-            # # take everything after keyword
-            # app_names = [
-            #     w for w in words[index + 1:]
-            #     if w not in IGNORE_WORDS
-            # ]
-
             app_phrase = " ".join(words[index + 1:])
 
             app_phrase = " ".join(
@@ -94,30 +87,6 @@ def detect_offline_intent(text: str):
                     confidence=0.8,
                     source="offline",
                 )
-            ]
-
-            if not app_names:
-                last_entity = get_last_entity()
-
-                print(f"[DEBUG] Using memory entity: {last_entity}")
-
-                return Intent(
-                    intent="open_app",
-                    entity=last_entity,
-                    confidence=0.8,
-                    source="offline",
-                )
-
-
-            # return multiple intents
-            return [
-                Intent(
-                    intent="open_app",
-                    entity=normalize_app_name(app),
-                    confidence=0.8,
-                    source="offline",
-                )
-                for app in app_names
             ]
 
     

@@ -8,7 +8,11 @@ from riya_engine.capabilities.base_response import CapabilityResponse
 
 APP_PATHS = {
 
-    "chrome": r"C:\Users\dell\AppData\Local\Google\Chrome\Application\chrome.exe"
+    "chrome":  r"C:\Users\dell\AppData\Local\Google\Chrome\Application\chrome.exe",
+
+    "notepad": "notepad.exe",
+
+    "vscode":  r"C:\Users\dell\AppData\Local\Programs\Microsoft VS Code\Code.exe",
 
 }
 

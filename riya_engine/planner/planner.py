@@ -14,12 +14,17 @@ class Planner:
 
         if intent == "OPEN_APP":
 
+            app_name = entities.get("app_name")
+
+            if not app_name:
+                return []
+
             return [
                 {
                     "step": 1,
                     "capability": "open_app",
                     "payload": {
-                        "app_name": entities["app_name"]
+                        "app_name": app_name
                     }
                 }
             ]
@@ -30,12 +35,38 @@ class Planner:
 
         if intent == "CLOSE_APP":
 
+            app_name = entities.get("app_name")
+
+            if not app_name:
+                return []
+
             return [
                 {
                     "step": 1,
                     "capability": "close_app",
                     "payload": {
-                        "app_name": entities["app_name"]
+                        "app_name": app_name
+                    }
+                }
+            ]
+
+        # ==========================================
+        # OPEN URL
+        # ==========================================
+
+        if intent == "OPEN_URL":
+
+            url = entities.get("url")
+
+            if not url:
+                return []
+
+            return [
+                {
+                    "step": 1,
+                    "capability": "open_url",
+                    "payload": {
+                        "url": url
                     }
                 }
             ]
@@ -48,6 +79,9 @@ class Planner:
 
             query = entities.get("query")
 
+            if not query:
+                return []
+
             return [
 
                 {
@@ -57,8 +91,6 @@ class Planner:
                         "app_name": "chrome"
                     }
                 },
-
-                
 
                 {
                     "step": 2,

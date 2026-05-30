@@ -7,7 +7,11 @@ from riya_engine.capabilities.base_response import CapabilityResponse
 
 PROCESS_NAMES = {
 
-    "chrome": "chrome.exe"
+    "chrome":  "chrome.exe",
+
+    "notepad": "notepad.exe",
+
+    "vscode":  "Code.exe",
 
 }
 
